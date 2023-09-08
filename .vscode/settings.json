@@ -1,0 +1,98 @@
+{
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "shims.d.ts": "*.d.ts",
+    ".env": "*.env, .env.*, env.d.ts",
+    "dockerfile": ".dockerignore, dockerfile*",
+    "package.json": ".git*, package.*.json, postcss*, changelogithub.config.json, .browserslist*, .circleci*, .codecov, .commitlint*, .editorconfig, .eslint*, .firebase*, .flowconfig, .github*, .gitlab*, .gitpod*, .huskyrc*, .jslint*, .lintstagedrc*, .markdownlint*, .mocha*, .node-version, .nodemon*, .npm*, .nvmrc, .pm2*, .pnp.*, .pnpm*, .prettier*, .releaserc*, .sentry*, .stackblitz*, .styleci*, .stylelint*, .tazerc*, .textlint*, .tool-versions, .travis*, .vscode*, .watchman*, .xo-config*, .yamllint*, .yarnrc*, api-extractor.json, appveyor*, ava.config.*, azure-pipelines*, bower.json, build.config.*, commitlint*, crowdin*, cypress.json, dangerfile*, dprint.json, firebase.json, grunt*, gulp*, jasmine.*, jenkins*, jest.config.*, jsconfig.*, karma*, lerna*, lint-staged*, nest-cli.*, netlify*, nodemon*, nx.*, package-lock.json, playwright.config.*, pm2.*, pnpm*, prettier*, pullapprove*, puppeteer.config.*, renovate*, rollup.config.*, stylelint*, tsconfig.*, tsdoc.*, tslint*, tsup.config.*, turbo*, typedoc*, vercel*, vetur.config.*, vitest.config.*, webpack.config.*, workspace.json, xo.config.*, yarn*",
+    "README.md": "*.MD"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.fontLigatures": true,
+  "editor.formatOnSave": false,
+  "editor.guides.bracketPairs": "active",
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.tabSize": 2,
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact", "vue", "json"],
+  "files.associations": {
+    "*.env.*": "dotenv"
+  },
+  "files.eol": "\n",
+  "git.enableSmartCommit": true,
+  "gutterpreview.paths": {
+    "@": "/src",
+    "~@": "/src"
+  },
+  "material-icon-theme.activeIconPack": "angular",
+  "material-icon-theme.files.associations": {},
+  "material-icon-theme.folders.associations": {
+    "src-tauri": "src",
+    "enum": "typescript",
+    "enums": "typescript",
+    "store": "context",
+    "stores": "context",
+    "composable": "hook",
+    "composables": "hook",
+    "directive": "tools",
+    "directives": "tools",
+    "business": "core",
+    "request": "api",
+    "adapter": "middleware"
+  },
+  "path-intellisense.mappings": {
+    "@": "${workspaceFolder}/src",
+    "~@": "${workspaceFolder}/src"
+  },
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontWeight": 500,
+  "terminal.integrated.tabs.enabled": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "One Dark Pro",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "vetur.format.defaultFormatter.js": "prettier",
+  "vetur.format.defaultFormatterOptions": {
+    "js-beautify-html": {
+      // #vue组件中html代码格式化样式
+      "wrap_attributes": "force-aligned", // 也可以设置为“auto”，效果会不一样
+      "wrap_line_length": 200,
+      "end_with_newline": false,
+      "semi": false,
+      "singleQuote": true
+    },
+    "prettier": {
+      "semi": false,
+      "singleQuote": false
+    }
+  },
+  "i18n-ally.localesPaths": ["src/locales", "src/locales/lang"]
+}
